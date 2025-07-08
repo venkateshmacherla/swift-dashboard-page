@@ -120,14 +120,7 @@ button:disabled {
 /* Responsive Layout */
 @media (max-width: 768px) {
 
-  table,
-  thead,
-  tbody,
-  th,
-  td,
-  tr {
-    display: block;
-  }
+
 
   th {
     position: sticky;
