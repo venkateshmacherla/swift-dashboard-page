@@ -1,0 +1,45 @@
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.comments-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    margin-bottom: 1.5rem;
+    min-width: 600px;
+    border: 1px solid #f1f3f7;
+    border-radius: 50px;
+}
+
+
+.comments-table th,
+.comments-table td {
+    padding: 0.85rem 0.7rem;
+    text-align: left;
+}
+
+.comments-table th {
+    background: #cec9e7;
+    color: #23264c;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.comments-table tr {
+    border-bottom: 1px solid #f1f3f7;
+}
+
+.comments-table tr:last-child {
+    border-bottom: none;
+}
+
+.comments-table td {
+    color: #23264c;
+    font-size: 0.98rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 220px;
+}

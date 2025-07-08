@@ -1,0 +1,56 @@
+.comments-dashboard {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #eaeaea;
+    padding: 2rem 2.5rem;
+}
+
+.comments-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.comments-toolbar select,
+.comments-toolbar input {
+    padding: 0.5rem 0.7rem;
+    border: 1px solid #e0e3e9;
+    outline: none;
+    border-radius: 6px;
+    background: #f7f8fa;
+    font-size: 1rem;
+    color: #23264c;
+}
+
+.comments-toolbar input {
+    flex: 1;
+    min-width: 220px;
+}
+
+.profile-link-btn {
+    display: inline-block;
+    background: #23264c;
+    color: #fff;
+    padding: 0.5rem 1.1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.profile-link-btn:hover {
+    background: #3a3d6b;
+}
+
+@media (max-width: 700px) {
+    .comments-dashboard {
+        padding: 1rem;
+    }
+
+    .comments-toolbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
